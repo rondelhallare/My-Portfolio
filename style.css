@@ -44,14 +44,14 @@ body.demos .section-title img {
     margin: 10px auto;
 }
 
-body.demos .service-widget h3 {
+body.demos .skills-widget h3 {
     border-bottom: 1px solid #ededed;
     font-size: 18px;
     padding: 20px 0;
     background-color: #ffffff;
 }
 
-body.demos .service-widget {
+body.demos .skills-widget {
     margin: 0 0 30px;
     padding: 30px;
     background-color: #fff
@@ -2050,7 +2050,6 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
 }
 
 .footer {
@@ -2296,7 +2295,7 @@ select.mobile-device {
     color: #999 !important;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -2305,7 +2304,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
