@@ -347,6 +347,7 @@ xclip
 
 .section.wb {
     background-color: #ffffff;
+    text-align: justify;
 }
 
 .section.lb {
@@ -785,6 +786,7 @@ hr.invis1 {
     text-align: center;
 }
 .con h5{
+    font-size: 30px;
     text-align: center;
 }
 .con {
