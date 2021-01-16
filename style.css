@@ -784,7 +784,13 @@ hr.invis1 {
 .online {
     text-align: center;
 }
-.con h5, p {
+.con h5{
+    text-align: center;
+}
+.con {
+    text-align: center;
+}
+.social-network {
     text-align: center;
 }
 
