@@ -601,34 +601,6 @@ xclip
     font-size: 11px;
 }
 
-#bottom-widget {
-    overflow: hidden;
-  }
-  ul.social-network {
-      margin: 0;
-      margin-left:0;
-      padding-left: 0;
-      list-style: none;
-  }
-  ul.social-network li {
-      display: inline;
-      margin: 5px 5px;
-  }
-  
-  
-  ul.social-network li a:hover span .fa-circle {
-      color: #2b2b2b;
-  }
-  
-  ul.social-network li a i{
-    transition: 0.3s
-  }
-.online {
-    text-align: center;
-}
-
-
-
 .section.wb .hover-up h3{
 	font-size: 32px;
 	color: #ffffff;
@@ -783,28 +755,37 @@ hr.invis1 {
     font-size: 15px;
     padding: 10px 20px;
 }
-
 #contact {
     background: url(images/bg.png) no-repeat center center #333333;
 }
-
-
 #contact .section-title p{
 	color: #ffffff;
 }
-
-.contact_form textarea.form-control{
-	min-height: 225px;
+#bottom-widget {
+    overflow: hidden;
+  }
+  ul.social-network {
+      margin: 0;
+      margin-left:0;
+      padding-left: 0;
+      list-style: none;
+  }
+  ul.social-network li {
+      display: inline;
+      margin: 5px 5px;
+  }
+  ul.social-network li a:hover span .fa-circle {
+      color: #2b2b2b;
+  }
+  
+  ul.social-network li a i{
+    transition: 0.3s
+  }
+.online {
+    text-align: center;
 }
-
-.form-group{
-	position: relative;
-}
-
-.help-block{
-	position: absolute;
-	top: 100%;
-	left: 0px;
+.con h5, p {
+    text-align: center;
 }
 
 /*------------------------------------------------------------------
@@ -909,7 +890,6 @@ hr.invis1 {
     overflow: hidden;
 }
 
-
 /* Footer left */
 
 .footer-distributed .footer-left {
@@ -936,20 +916,16 @@ hr.invis1 {
     padding: 0;
 }
 
-
 /* Footer right */
 
 .footer-distributed .footer-right {
     float: right;
 }
-
-
 /* The search form */
 
 .footer-distributed form {
     position: relative;
 }
-
 .footer-distributed form input {
     display: block;
     border-radius: 3px;
@@ -1006,116 +982,7 @@ hr.invis1 {
 	color: #cccccc;
 }
 
-/*------------------------------------------------------------------
-    MISC
--------------------------------------------------------------------*/
 
-.dmtop.show {
-    bottom: 50px;
-}
-
-.progress {
-    background-color: #f2f3f5;
-    border-radius: 0;
-    box-shadow: none;
-    height: 5px;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-
-.skills h3 {
-    color: #999999;
-    font-size: 15px;
-}
-
-.dmtop {
-    background-color: #3C3D41;
-    z-index: 100;
-    width: 50px;
-    height: 50px;
-    line-height: 47px;
-    position: fixed;
-    bottom: -100px;
-    border-radius: 3px;
-    right: 50px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffffff !important;
-    cursor: pointer;
-    -webkit-transition: all .7s ease-in-out;
-    -moz-transition: all .7s ease-in-out;
-    -o-transition: all .7s ease-in-out;
-    -ms-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;
-}
-
-.icon_wrap {
-    background-color: #1f1f1f;
-    width: 100px;
-    height: 100px;
-    display: block;
-    line-height: 100px;
-    font-size: 34px;
-    color: #ffffff;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 !important;
-    border: 0 !important;
-}
-
-.stat-wrap h3 {
-    font-size: 18px;
-    font-weight: 400;
-    color: #999 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 1 !important;
-}
-
-.stat-wrap p {
-    font-size: 38px;
-    color: #ffffff;
-    margin: 0;
-    font-weight: 300;
-    padding: 4px 0 0;
-    line-height: 1 !important;
-}
-
-#preloader {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #333333;
-    z-index: 11000;
-    position: fixed;
-    display: block
-}
-
-
-#main-ld {
-  width: 70px;
-  height: 70px;
-  overflow: hidden;
-  position: absolute;
-  top: calc(50% - 17px);
-  left: calc(50% - 35px);
-}
-#loader {
-  width: 70px;
-  height: 70px;
-  border-style: solid;
-  border-top-color: #FFF;
-  border-right-color: #FFF;
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-  border-radius: 50%;
-  box-sizing: border-box;
-  animation: rotate 3s ease-in-out infinite;
-  transform: rotate(-200deg)
-}
 @keyframes rotate {
   0% { border-width: 10px; }
   25% { border-width: 3px; }
